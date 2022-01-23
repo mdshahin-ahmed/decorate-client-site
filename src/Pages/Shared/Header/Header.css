@@ -1,0 +1,28 @@
+.navbar_bg {
+  background: #32cf9d;
+  color: white;
+}
+
+.shoppingCartIcon {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.shoppingCartNumber {
+  position: relative;
+  top: -10px;
+  right: -35px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  padding: 0px 6px;
+}
+.navLink {
+  color: white !important;
+  font-size: large;
+}
+.navLink:hover {
+  color: rgb(22, 22, 22) !important;
+  transition: all 1s;
+}
