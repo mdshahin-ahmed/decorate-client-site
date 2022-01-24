@@ -1,0 +1,26 @@
+.carouselImage {
+  background: red;
+  opacity: 0.9;
+  height: calc(80vh - 0px);
+}
+.carouselWrap {
+  height: calc(80vh - 0px);
+}
+.carouselItem {
+  height: calc(80vh - 0px);
+}
+/* .carouselImage1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.623)),
+    url("../../../images/1.jpg");
+} */
+.carouselCaption {
+  color: #32cf9d;
+}
+.carousel-control-next-icon {
+  /* background: #000; */
+  color: #32cf9d !important;
+}
+.visually-hidden {
+  background: #000;
+  color: #32cf9d !important;
+}

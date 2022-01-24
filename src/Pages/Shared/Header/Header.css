@@ -1,6 +1,8 @@
 .navbar_bg {
   background: #32cf9d;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .shoppingCartIcon {
