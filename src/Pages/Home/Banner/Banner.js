@@ -9,41 +9,35 @@ const Banner = () => {
   return (
     <Carousel className="">
       <Carousel.Item className="carouselItem" interval={1500}>
-        <img
-          className="d-block w-100 carouselImage"
-          src={img1}
-          alt="First slide"
-        />
+        <div className="d-block w-100 carouselImage carouselImage1"></div>
         <Carousel.Caption>
           <div className="carouselCaption">
-            <h1 className="text-uppercase">Crafted designs with beauty</h1>
-            <button className="mb-5">Shop Now</button>
+            <div>
+              <h1 className="text-uppercase">Crafted designs with beauty</h1>
+              <button className="carouselButton">Shop Now</button>
+            </div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carouselItem" interval={1500}>
-        <img
-          className="d-block w-100 carouselImage"
-          src={img2}
-          alt="Second slide"
-        />
+        <div className="d-block w-100 carouselImage carouselImage2"></div>
         <Carousel.Caption>
           <div className="carouselCaption">
-            <h1 className="text-uppercase">For the celebration of life</h1>
-            <button className="mb-5">Shop Now</button>
+            <div>
+              <h1 className="text-uppercase">For the celebration of life</h1>
+              <button className="carouselButton">Shop Now</button>
+            </div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carouselItem" interval={1500}>
-        <img
-          className="d-block w-100 carouselImage"
-          src={img3}
-          alt="Third slide"
-        />
+        <div className="d-block w-100 carouselImage carouselImage3"></div>
         <Carousel.Caption>
           <div className="carouselCaption">
-            <h1 className="text-uppercase">redefine your home</h1>
-            <button className="mb-5">Shop Now</button>
+            <div>
+              <h1 className="text-uppercase">redefine your home</h1>
+              <button className="carouselButton">Shop Now</button>
+            </div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

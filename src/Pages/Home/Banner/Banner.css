@@ -1,5 +1,4 @@
 .carouselImage {
-  background: red;
   opacity: 0.9;
   height: calc(80vh - 0px);
 }
@@ -9,12 +8,44 @@
 .carouselItem {
   height: calc(80vh - 0px);
 }
-/* .carouselImage1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.623)),
+.carouselImage1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.585), rgba(0, 0, 0, 0.523)),
     url("../../../images/1.jpg");
-} */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carouselImage2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.585), rgba(0, 0, 0, 0.523)),
+    url("../../../images/2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carouselImage3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.585), rgba(0, 0, 0, 0.523)),
+    url("../../../images/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .carouselCaption {
   color: #32cf9d;
+  height: calc(80vh - 90px);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.carouselButton {
+  background: #4d5a56;
+  color: white;
+  border: 1px solid #76e0bf;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.carouselButton:hover {
+  background: #32cf9d;
 }
 .carousel-control-next-icon {
   /* background: #000; */
